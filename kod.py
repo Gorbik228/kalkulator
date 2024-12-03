@@ -1,15 +1,15 @@
 user = input('Введите выражение: ')
 
-def umnoschenie(a, b):
+def umnoschenie(a, b):# пишем функцию умножения
     return a * b
 
-def summa(a, b):
+def summa(a, b):#пишем функцию суммы
     return a + b
 
-def rasnost(a, b):
+def rasnost(a, b):#пишем функцию разности
     return a - b 
 
-def delenie(a, b):
+def delenie(a, b):#пишем функцию деления
     if b == 0:
         return "Ошибка"
     return a / b
